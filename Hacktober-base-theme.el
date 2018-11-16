@@ -1,6 +1,6 @@
-;;; Hacktober-theme.el
+;;; hacktober-theme.el
 
-(deftheme Hacktober)
+(deftheme hacktober)
 
 (let ((hacktober-fg "#c9c9c9")
       (hacktober-bg "#141414")
@@ -29,7 +29,7 @@
       (hacktober-grey-2 "#888")
       (hacktober-grey-3 "#444"))
   (custom-theme-set-faces
-   'Hacktober
+   'hacktober
    ;; from ITerm2 theme
    `(default ((t (:background ,hacktober-bg :foreground ,hacktober-fg))))
    `(highlight ((t (:background ,hacktober-bg-hl :foreground ,hacktober-fg-hl))))
@@ -70,4 +70,4 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'Hacktober)
+(provide-theme 'hacktober)

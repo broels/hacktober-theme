@@ -1,4 +1,4 @@
-;;; Hacktober-theme.el --- Hacktober color theme for Emacs.
+;;; hacktober-theme.el --- Hacktober color theme for Emacs.
 
 ;; Copyright (C) 2018  Brian Roels
 
@@ -39,7 +39,7 @@
 
 ;;; Code:
 
-(deftheme Hacktober)
+(deftheme hacktober)
 
 (let ((hacktober-fg "#c9c9c9")
       (hacktober-bg "#141414")
@@ -69,7 +69,7 @@
       (hacktober-grey-3 "#444"))
 
   (custom-theme-set-faces
-   'Hacktober
+   'hacktober
 
    ;; ui
    `(default ((t (:background ,hacktober-bg :foreground ,hacktober-fg))))
@@ -106,10 +106,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'Hacktober)
+(provide-theme 'hacktober)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; Hacktober-theme.el ends here
+;;; hacktober-theme.el ends here
